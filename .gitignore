@@ -1,0 +1,22 @@
+# ignore all logs
+*.log
+*.org
+
+# Ignore les fichiers données temporaires
+*.xlsx
+*.csv
+*.xls
+*.ical
+
+# Ignore la cache
+__pycache__
+*.pyc
+
+# environnements python
+venv/*
+.venv/*
+
+.vscode/*
+
+input/*
+output/*

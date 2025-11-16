@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdtrans"
+version = "1.0.0"
+description = "Markdown-safe translator CLI using LibreTranslate"
+authors = [{name="Aurore", email="extenebrisadlucem@hotmail.com"}]
+dependencies = [
+"certifi==2025.11.12",
+"charset-normalizer==3.4.4",
+"click==8.3.0",
+"idna==3.11",
+"requests==2.32.5",
+"urllib3==2.5.0"
+]

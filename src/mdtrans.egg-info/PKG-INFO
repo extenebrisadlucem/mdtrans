@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: mdtrans
+Version: 0.1.0
+Summary: Markdown-safe translator CLI using LibreTranslate
+Author-email: Aurore <you@example.org>
+Requires-Dist: requests>=2.28
+Requires-Dist: click>=8.0
